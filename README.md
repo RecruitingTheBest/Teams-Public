@@ -10,17 +10,20 @@ This is meant to be a general guide to learn about the different kinds of projec
 - Performance improvements to large clusters.
 - Making Teleport CA easier to use.
 
+
 ### Backend, Windows 
 - Porting Teleport server and client to Windows.
 - Building hardened [security](https://github.com/gravitational/teleport/issues?q=is%3Aissue+is%3Aopen+label%3Asecurity) for Windows users.
 - Implementing remote desktop support protocol for Teleport
 - working with Direcx3D device drivers, video streaming etc.
 
+
 ### Teleport Security Engineering
 - HSM support
 - Internal PKIs
 - User/session locking
 - Access workflows
+
 
 ### Database and Application Access 
 Application & Database Access team is one of the newer Teleport teams. We are focusing on design and development of the Teleport products providing access to [web applications](https://goteleport.com/docs/application-access/), [databases](https://goteleport.com/docs/database-access/) and various [cloud providers](https://goteleport.com/docs/application-access/guides/aws-console/).
@@ -34,8 +37,11 @@ Application & Database Access team is one of the newer Teleport teams. We are fo
 
 The App & Database Access team is currently 2 people (part of the larger Teleport Core team of 20) in US and European timezones, looking to grow to 4-5 this year.
 
+
 ### Teleport Devops
 Responsible for Building, Maintaining, and Testing open-source modules for various configuration management platforms. This will be the opensource code that enables both our OSS and Enterprise customers to deploy and maintain Teleport on their chosen configuration management system. We’re looking to cover kubernetes, terraform on various clouds, ansible, salt, puppet, etc.
+
+
 
 ## Cloud Platform team
 The Teleport Cloud offering is new; we're on a journey of defining and building a culture around production, offering a secure and reliable hosted version of Teleport Enterprise as a service. 
@@ -50,13 +56,15 @@ Our mandate is straightforward; we need to be prepared to secure, monitor, maint
 - Progressing beyond minimum viable monitoring and alerting and fully adopting Grafana Cloud as our centralized metrics, alerting and logging platform.
 
 #### The toolset we currently use is:
-* Golang
-* Terraform and Packer
-* Kubernetes
-* Prometheus / Alertmanager / Loki internally and on Grafana Cloud
-* Amazon Web Services
-* Drone.io
-* and More
+- Golang
+- Terraform and Packer
+- Kubernetes
+- Prometheus / Alertmanager / Loki internally and on Grafana Cloud
+- Amazon Web Services
+- Drone.io
+- and More
+
+
 
 ## Cloud Application team
 - Automatic provisioning, management, and monitoring of customer Teleport infrastructure (aws, kubernetes, golang)
