@@ -78,12 +78,12 @@ Teleport Cloud is the SaaS version of Teleport that we launched in early 2021. A
 - Asset distribution
 
 #### We use the following stack:
-Go
-Typescript
-React
-Kubernetes
-AWS
-Terraform
-PostgreSQL
-gRPC
-Grafana & Prometheus
+- Go
+- Typescript
+- React
+- Kubernetes
+- AWS
+- Terraform
+- PostgreSQL
+- gRPC
+- Grafana & Prometheus
