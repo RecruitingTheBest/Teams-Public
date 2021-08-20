@@ -67,9 +67,9 @@ Our mandate is straightforward; we need to be prepared to secure, monitor, maint
 
 
 ## Cloud Application team
-Teleport Cloud is the SaaS version of Teleport that we launched in early 2021. As the applications team for Teleport Cloud, our goal is to manage the deployments of Teleport for our cloud customers and provide a stable, easy to use product.
+Teleport Cloud is the SaaS version of Teleport that we launched in early 2021. As the applications team for Teleport Cloud, our goal is to manage the deployments of Teleport for our cloud customers and provide a stable, easy to use product. 
 
-#### The team intersects with almost all other departments in the company and as such there is a large variety of projects that we're involved in, for example:
+The team intersects with almost all other departments in the company and as such there is a large variety of projects that we're involved in, for example:
 - Custom Kubernetes operators
 - Subscription & billing logic
 - Internal dashboards & admin panels
