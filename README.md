@@ -67,6 +67,23 @@ Our mandate is straightforward; we need to be prepared to secure, monitor, maint
 
 
 ## Cloud Application team
-- Automatic provisioning, management, and monitoring of customer Teleport infrastructure (aws, kubernetes, golang)
-- Subscription management, billing and payments (PostgreSQL, plsql, golang, grpc, Stripe, React)
-- Adding new features to Teleport Web Application (React, golang, websockets, grpc)
+Teleport Cloud is the SaaS version of Teleport that we launched in early 2021. As the applications team for Teleport Cloud, our goal is to manage the deployments of Teleport for our cloud customers and provide a stable, easy to use product.
+
+#### The team intersects with almost all other departments in the company and as such there is a large variety of projects that we're involved in, for example:
+- Custom Kubernetes operators
+- Subscription & billing logic
+- Internal dashboards & admin panels
+- UI & UX improvements for Teleport
+- Analytics & Monitoring
+- Asset distribution
+
+#### We use the following stack:
+Go
+Typescript
+React
+Kubernetes
+AWS
+Terraform
+PostgreSQL
+gRPC
+Grafana & Prometheus
