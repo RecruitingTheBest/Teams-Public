@@ -1,28 +1,49 @@
 # Summary
 This is meant to be a general guide to learn about the different kinds of projects our engineering teams are working on at Teleport and to help decide which may be the best fit for those looking to join. 
 
+## Core
 
-## Core Teleport team
-- U2F Protected Sessions.
-- User locking (security controls).
-- Approval workflows for dynamic access granting.
-- [Scaling](https://github.com/gravitational/teleport/issues?q=is%3Aissue+is%3Aopen+label%3Ascale) Teleport to larger clusters (10k at the moment).
-- Performance improvements to large clusters.
-- Making Teleport CA easier to use.
+The Teleport Core team is focused on design and development of the core product: Teleport. It is split into multiple sub teams that work on specific areas of the product.
 
+### Server and Kubernetes Access
 
-### Backend, Windows 
-- Porting Teleport server and client to Windows.
-- Building hardened [security](https://github.com/gravitational/teleport/issues?q=is%3Aissue+is%3Aopen+label%3Asecurity) for Windows users.
-- Implementing remote desktop support protocol for Teleport
-- working with Direcx3D device drivers, video streaming etc.
+The Server and Kubernetes Access team works on [SSH](https://goteleport.com/ssh-server-access/) and [Kubernetes](https://goteleport.com/kubernetes-access/) servers and proxies.
 
+The team recently added support for [eBPF based restricted sessions](https://goteleport.com/docs/server-access/guides/restricted-session) and is working on extending eBPF based monitoring and access controls to Kubernetes clusters.
 
-### Teleport Security Engineering
-- HSM support
-- Internal PKIs
-- User/session locking
-- Access workflows
+### Application and Database Access
+
+The Application and Database Access team works on providing access to [web applications](https://goteleport.com/docs/application-access) and [databases](https://goteleport.com/docs/database-access/) behind NATs and firewalls with security and compliance needs.
+
+The team has recently worked on adding [certificate based authentication support to CLI applications](https://github.com/gravitational/teleport/pull/5918) and adding support for the [MongoDB protocol](https://github.com/gravitational/teleport/pull/7213) to Database Access.
+
+### Product Security
+
+The Product Security team is focused on application security for the entire product. This teams implements security controls and works with security researchers to find and fix security vulnerabilities.
+
+The team has recently added support for [Per-Session MFA](https://goteleport.com/docs/access-controls/guides/per-session-mfa/), [Access Requests](https://goteleport.com/docs/enterprise/workflow/), [user and session locking](https://github.com/gravitational/teleport/pull/7286), and mitigated issued found during [security audits](https://goteleport.com/resources/audits/).
+
+### Performance and Scaling
+
+The Performance and Scaling team is focused on scaling, performance, and robustness of Teleport in large deployments.
+
+The team is currently working on scaling Teleport to [100k node clusters](https://github.com/gravitational/teleport/issues/4173) and [secure automatic upgrades](https://github.com/gravitational/teleport/pull/6691) of large fleets of servers.
+
+### Teleport Terminal
+
+The Teleport Terminal team is focused on creating desktop applications that make Teleport easier to use and more secure.
+
+The team is working on pairing [hardware devices](https://github.com/gravitational/teleport/pull/7808) with certificate authentication to give users a seamless highly secure environment.
+
+### Desktop Access
+
+The Teleport Desktop Access team is focused on secure and user-friendly remote desktop access.
+
+The team is currently working on browser based [Windows Desktop Access](https://github.com/gravitational/teleport/pull/7725).
+
+### Internal Tools
+
+The Internal Tools team is focused on building simple and secure foundational tools and processes to increase developer autonomy and productivity in a distributed environment. 
 
 
 ### Database and Application Access 
