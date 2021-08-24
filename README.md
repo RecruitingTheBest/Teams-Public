@@ -17,6 +17,14 @@ The Application and Database Access team works on providing access to [web appli
 
 The team has recently worked on adding [certificate based authentication support to CLI applications](https://github.com/gravitational/teleport/pull/5918) and adding support for the [MongoDB protocol](https://github.com/gravitational/teleport/pull/7213) to Database Access.
 
+
+#### Here are the examples of projects you may be working on:
+* Adding support for more database access [protocols](https://github.com/gravitational/teleport/issues?q=is%3Aopen+is%3Aissue+label%3Adatabase-access+label%3Adb%2Frequested) and improving the existing ones.
+* Working on [features](https://github.com/gravitational/teleport/issues?q=is%3Aissue+is%3Aopen+label%3Aapplication-access+label%3Afeature-request) for application access identity-aware proxy.
+* Building advanced access controls such as [session recording](https://github.com/gravitational/teleport/issues/5799), [data masking](https://github.com/gravitational/teleport/issues/7150) and [per-session MFA](https://github.com/gravitational/teleport/issues/6172).
+* Implementing cloud access solutions for AWS, GCP and Azure.
+* Improving the UX of application and database access products.
+
 ### Product Security
 
 The Product Security team is focused on application security for the entire product. This teams implements security controls and works with security researchers to find and fix security vulnerabilities.
@@ -45,18 +53,6 @@ The team is currently working on browser based [Windows Desktop Access](https://
 
 The Internal Tools team is focused on building simple and secure foundational tools and processes to increase developer autonomy and productivity in a distributed environment. 
 
-
-### Database and Application Access 
-Application & Database Access team is one of the newer Teleport teams. We are focusing on design and development of the Teleport products providing access to [web applications](https://goteleport.com/docs/application-access/), [databases](https://goteleport.com/docs/database-access/) and various [cloud providers](https://goteleport.com/docs/application-access/guides/aws-console/).
-
-#### Here are the examples of projects you may be working on:
-* Adding support for more database access [protocols](https://github.com/gravitational/teleport/issues?q=is%3Aopen+is%3Aissue+label%3Adatabase-access+label%3Adb%2Frequested) and improving the existing ones.
-* Working on [features](https://github.com/gravitational/teleport/issues?q=is%3Aissue+is%3Aopen+label%3Aapplication-access+label%3Afeature-request) for application access identity-aware proxy.
-* Building advanced access controls such as [session recording](https://github.com/gravitational/teleport/issues/5799), [data masking](https://github.com/gravitational/teleport/issues/7150) and [per-session MFA](https://github.com/gravitational/teleport/issues/6172).
-* Implementing cloud access solutions for AWS, GCP and Azure.
-* Improving the UX of application and database access products.
-
-The App & Database Access team is currently 2 people (part of the larger Teleport Core team of 20) in US and European timezones, looking to grow to 4-5 this year.
 
 
 ### Teleport Devops
