@@ -44,6 +44,8 @@ The team is currently working on browser-based [Windows Desktop Access](https://
 
 The Internal Tools team is focused on building simple and secure foundational tools and processes to increase developer autonomy and productivity in a distributed environment.
 
+
+
 ### Teleport Devops
 Teleport DevOps is responsible for building, maintaining, and testing open-source modules for various configuration management platforms. This will be the open-source code that enables both our OSS and Enterprise customers to deploy and maintain Teleport on their chosen configuration management system. We’re looking to cover Kubernetes, Terraform on various clouds, Ansible, Salt, Puppet, etc.
 
