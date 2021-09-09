@@ -56,11 +56,12 @@ The Teleport Cloud offering is new; we're on a journey of defining and building 
 Our mandate is straightforward; we need to be prepared to secure, monitor, maintain, scale, investigate, and automate our production environment for Teleport Cloud. Our work includes a wide variety of projects drawing on various skill sets, from ensuring we're up to date on patches to redesigning parts of the Teleport Core project to be more appealing to the Cloud.
 
 #### Here are some of the projects we're working on right now:
--Rewriting the Teleport core project networking so that agents run by customers require fewer connections and overhead when phoning home.
--We are expanding Teleport Cloud to multiple regions, reducing latency between users and their infrastructure.
--We are deploying auto scalers, so no one needs to be paged to scale our infrastructure when there is a burst in new accounts.
--We're improving our security posture, currently focusing on ensuring we have an audit trail for generated and published assets and ensuring we're using encryption at rest in the right places.
--Progressing beyond minimum viable monitoring and alerting and fully adopting Grafana Cloud as our centralized metrics, alerting and logging platform.
+- Rewriting the Teleport core project networking so that agents run by customers require fewer connections and overhead when phoning home.
+- We are expanding Teleport Cloud to multiple regions, reducing latency between users and their infrastructure.
+- We are deploying auto scalers, so no one needs to be paged to scale our infrastructure when there is a burst in new accounts.
+- We're improving our security posture, currently focusing on ensuring we have an audit trail for generated and published assets and ensuring we're using encryption at rest in the right places.
+- Progressing beyond minimum viable monitoring and alerting and fully adopting Grafana Cloud as our centralized metrics, alerting and logging platform.
+
 
 #### The toolset we currently use is:
 - Golang
