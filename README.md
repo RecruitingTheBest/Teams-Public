@@ -27,7 +27,7 @@ The team has recently added support for [Per-Session MFA](https://goteleport.com
 
 ### Performance and Scaling
 
-TThe Performance and Scaling team is focused on scaling, performance, and robustness of Teleport in large deployments.
+The Performance and Scaling team is focused on scaling, performance, and robustness of Teleport in large deployments.
 The team is currently working on scaling Teleport to [100k node clusters](https://github.com/gravitational/teleport/issues/4173) and [secure automatic upgrades](https://github.com/gravitational/teleport/pull/6691) of large fleets of servers.
 
 ### Teleport Terminal
