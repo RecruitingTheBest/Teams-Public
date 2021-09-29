@@ -40,6 +40,16 @@ The team is working on pairing [hardware devices](https://github.com/gravitation
 The Teleport Desktop Access team is focused on secure and user-friendly remote desktop access.
 The team is currently working on browser-based [Windows Desktop Access](https://github.com/gravitational/teleport/pull/7725).
 
+### Frontend Applications
+
+The Teleport Frontend Applications team is focused on building user-friendly web applications.
+
+- Adding session event player to the audit log.
+- Building a new user interface for Teleport's terminal.
+- Improving Node Search. [#2699](https://github.com/gravitational/teleport/issues/2699)
+- Ability to comment / link to specific times in recorded sessions. [#996](https://github.com/gravitational/teleport/issues/996)
+- Adding better support for WebAuthn (second factor).
+
 ### Internal Tools
 
 The Internal Tools team is focused on building simple and secure foundational tools and processes to increase developer autonomy and productivity in a distributed environment.
